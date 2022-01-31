@@ -1,6 +1,3 @@
-import numbers
-
-
 def linear_search(numbers, target):
     for i in range(0, len(numbers)):
         if numbers[i] == target:
