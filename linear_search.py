@@ -1,4 +1,7 @@
 def linear_search(numbers, target):
+    """
+    Returns the index position if found, else retun None
+    """
     for i in range(0, len(numbers)):
         if numbers[i] == target:
             return i
@@ -7,7 +10,7 @@ def linear_search(numbers, target):
 
 def verify(index):
     if index is not None:
-        print('The search item is found at index', index)
+        print('Item found at index', index)
     else:
         print('Search item not found')
 

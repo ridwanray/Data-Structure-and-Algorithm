@@ -26,5 +26,5 @@ def verify(index):
 
 items = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-result = binary_search(items, 7)
+result = binary_search(items, 5)
 verify(result)
