@@ -1,3 +1,5 @@
+# Time complexity O(log n)... Logarithmic Time
+# Values in Binary search algorithm must be a sorted list
 def binary_search(numbers, target):
     first = 0
     last = len(numbers) - 1
